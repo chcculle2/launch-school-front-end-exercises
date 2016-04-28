@@ -8,14 +8,14 @@
     <form action="/handle-my-form" method="post" >
       <fieldset>
       <dl>
-        <dt><label for ="yourname">Your Name</label></dt>
-        <dd><input type="text" id = "yourname" ></dd>
+        <dt><label for ="name">Your Name</label></dt>
+        <dd><input type="text" name="name" id = "name" required ></dd>
         <dt><label for ="email">Email</label></dt>
-        <dd><input type="text" id = "email" /></dd>
+        <dd><input type="text" name = "email" id = "email"  required ></dd>
         <dt><label for ="phone">Phone Number</label></dt>
-        <dd><input type="text" id = "phone" ></dd>
+        <dd><input type="text" name = "phone" id = "phone"  required ></dd>
         <dt><label for ="message">Message</label></dt>
-        <dd><textarea rows="6" cols="50" > </textarea></dd>
+        <dd><textarea rows="6" cols="80" name="message" id="message" required></textarea></dd>
       <input type="submit" value="Send Message">
       <input type="reset" value="Clear">
     </form>
